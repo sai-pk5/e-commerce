@@ -1,0 +1,190 @@
+body{
+	margin: 0%;
+	padding: 0%;
+	font-family: sans-serif;
+	
+}
+.navbar{
+    position: sticky;
+    top: 0%;
+	z-index: 10;
+	margin-bottom: 1%;
+}
+.navbar{
+    padding: 0 !important;
+}
+.navbar-brand{
+	
+    letter-spacing: 4px;
+    font-weight: bold;   
+}
+li{
+	padding: 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.new{
+	cursor: pointer;
+	color: white;
+	font-weight: bold;
+	padding: 2px 4px;
+	float: left;
+	background-color: red;
+}
+.over-lay{
+	cursor: pointer;
+	font-weight: bold;
+	color: black;
+	padding: 2px 4px;
+	float: right;
+	background-color: rgb(51, 255, 0);
+
+}
+li button{
+	text-decoration: none;
+	color: white;
+	background-color: red;
+	border-radius: 10px black;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.btn{
+	width: 20%;
+	padding: 5% 10%;
+
+}
+
+
+input{
+	width: 50%;
+}
+.carousel{
+	
+	height: 50%;
+}
+.carousel-inner{
+	background-color: black;
+}
+.carousel-inner img{
+	margin:0% 20%;
+	background-size: cover;
+} 
+#Services{
+	align-items: center;	
+
+}
+h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 200%;
+}
+h3{
+	font-weight: 900;
+}
+#products{
+	color: white;
+	background-color: black;
+}
+#Products{
+	color: white;
+	background-color: black;
+}
+.card{
+	background-color: white;
+	color: black;
+	opacity: 0.8;
+}
+.card:hover {
+	opacity: 1;
+}
+.img1{
+	width: 80%;
+	height: 50%;
+}
+
+#About{
+	background-color: rgb(245, 228, 245);
+	animation-name:image;
+}
+img{
+	margin: 5% 0%;
+	animation-name:image;
+}
+#About h4{
+	margin-top: 15%;
+	font-weight: bold;
+	font-size:40px;
+}
+#About p{
+	font-weight: 800;
+	font-size: 20px;
+}
+#Contact{
+	padding: 50px 50px;
+	background-color: black;
+	color: cornsilk;
+
+}
+#btn{
+	background-color: red;
+	color: white;
+}
+
+ul{
+    padding: 10px 10px;
+    list-style: square;
+}
+input{
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+  }
+  
+  input:focus {
+	background-color: #ddd;
+	outline: none;
+  }
+  
+  hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+  }
+  
+  /* Set a style for all buttons */
+#btn {
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+  }
+  
+#btn:hover {
+	opacity:1;
+  }
+  .signupbtn{
+	padding: 14px 20px;
+	  background-color: #ee0c0c;
+  }
+  
+  /* Extra styles for the cancel button */
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+	float: left;
+	width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+	padding: 16px;
+  }
+  
+ 
